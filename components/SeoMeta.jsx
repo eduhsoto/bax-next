@@ -1,3 +1,5 @@
+import Head from "next/head"
+
 export default function SeoMeta({title, description, keywords}) {
     return(
         <Head>
