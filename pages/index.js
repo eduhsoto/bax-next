@@ -1,16 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import Image from "next/image";
+import { Inter } from "@next/font/google";
+import styles from "@/styles/Home.module.css";
+import SeoMeta from "@/components/SeoMeta";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Create Next App</title>
-      </Head>
+      <SeoMeta
+        title="Bax - Capacitamos personas para que cumplan su sueño emprendedor"
+        description="Te acompañamos en tu camino con profesionales experimentados y las mejores herramientas."
+        keywords="Bax, Bax soluciones, Capacitamos emprendedores, emprendedores"
+      />
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
@@ -23,7 +25,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
+              By{" "}
               <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
@@ -116,5 +118,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }
