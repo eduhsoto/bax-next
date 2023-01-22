@@ -21,6 +21,7 @@ export default function NavBar() {
             <NavLi route="/courses" linkName="Cursos" />
             <NavLi route="/#testimonials" linkName="Testimonios" />
             <NavLi route="/#about" linkName="Nosotros" />
+            <NavLi route="/contact" linkName="Contacto" />
           </div>
         </div>
       </div>
