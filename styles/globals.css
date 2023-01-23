@@ -39,10 +39,14 @@
       font-weight: 800;
       line-height: 49px;
     }
-  
+
     @layer components {
       .button-cta {
         @apply bg-color_primary_1 text-color_default px-5 py-5 rounded-[30px] font-roboto text-xl font-medium text-center min-w-[200px];
       }
     }
   }
+
+  html {
+    scroll-behavior: smooth!important;
+    }
