@@ -25,7 +25,7 @@ export default async function handler(req, res) {
       pass: EMAIL_PASS,
     },
 
-    tls: { rejectUnauthorized: false },
+    // tls: { rejectUnauthorized: false },
   });
 
   if (req.method === "POST") {
