@@ -6,6 +6,7 @@ import Image from "next/image";
 import Testimonials from "@/components/home/Testimonials";
 import About from "@/components/home/About";
 import Qa from "@/components/Qa";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,28 +28,32 @@ export default function Home() {
               Te acompañamos en tu camino con profesionales experimentados y las
               mejores herramientas.
             </p>
-            <a href="/courses" className="button-cta tablet:hidden">
+            <Link href="/courses" className="button-cta tablet:hidden">
               Conoce nuestros cursos
-            </a>
+            </Link>
           </div>
 
           <div className="max-w-lg">
-            <img
+            <Image
               src="/img/enterprising-couple-in-cafeteria.png"
               alt="enterprising couple in cafeteria"
+              width={803}
+              height={576}
               className="w-full"
             />
           </div>
 
           <div className="hidden tablet:block tablet:mt-5">
-            <a href="/courses" className="button-cta phone:py-5 phone:px-4">
+            <Link href="/courses" className="button-cta phone:py-5 phone:px-4">
               Conoce nuestros cursos
-            </a>
+            </Link>
           </div>
         </div>
-        <img
+        <Image
           src="/img/curveRU.svg"
           alt="curve right up"
+          width={1349}
+          height={509}
           className="absolute top-1/2 -z-10 tablet:hidden"
         />
       </section>
@@ -107,9 +112,11 @@ export default function Home() {
             />
           </div>
         </div>
-        <img
+        <Image
           src="/img/curveRD.svg"
           alt="curve right down"
+          width={1349}
+          height={729}
           className="absolute top-2/4 -z-10 tablet:hidden"
         />{" "}
       </section>
@@ -163,9 +170,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img
+        <Image
           src="/img/curveLU.svg"
           alt="curve left up"
+          width={1349}
+          height={556}
           className="absolute top-1/3 -z-10 tablet:hidden"
         />{" "}
       </section>
@@ -176,13 +185,15 @@ export default function Home() {
             Aprende las mejores herramientas para hacer crecer tu negocio.
           </h2>
 
-          <a href="" className="button-cta phone:py-5 phone:px-4">
+          <Link href="/contact" className="button-cta phone:py-5 phone:px-4">
             Consulta Inscriciones
-          </a>
+          </Link>
         </div>
-        <img
+        <Image
           src="/img/curveLD.svg"
           alt="curve left down"
+          width={1349}
+          height={791}
           className="absolute -top-[450px] -z-10 tablet:hidden"
         />
       </section>
@@ -235,9 +246,11 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <img
+        <Image
           src="/img/curveLU.svg"
           alt="curve left up"
+          width={1349}
+          height={556}
           className="absolute -top-3/4 -z-10 tablet:hidden"
         />
       </section>
@@ -247,9 +260,9 @@ export default function Home() {
             <h2 className="text-[50px] text-color_primary_2 text-center phone:text-[2.5rem]">
               Si quieres potenciarte y capacitarte, este es tu lugar.
             </h2>
-            <a href="/contact" className="button-cta phone:py-5 phone:px-4">
+            <Link href="/contact" className="button-cta phone:py-5 phone:px-4">
               Quiero inscribirme
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -261,9 +274,11 @@ export default function Home() {
             q3="¿Necesito conocimientos previos para cursar"
           />
         </div>
-        <img
+        <Image
           src="/img/curveRD.svg"
           alt="curve right down"
+          width={1349}
+          height={729}
           className="absolute -top-48 -z-10 tablet:hidden"
         />
       </section>
