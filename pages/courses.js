@@ -22,9 +22,11 @@ export default function Courses() {
           time="Duración del curso: 1 año."
           subjects="Cantidad de materias: 16"
         />
-        <img
+        <Image
           src="/img/curveRU.svg"
           alt="curve right up"
+          width={1349}
+          height={509}
           className="absolute top-[45%] -z-10 tablet:hidden"
         />
       </section>
@@ -66,9 +68,11 @@ export default function Courses() {
           time="Duración del curso: 1 año."
           subjects="Cantidad de materias: 16"
         />
-        <img
+        <Image
           src="/img/curveLD.svg"
           alt="curve left down"
+          width={1349}
+          height={791}
           className="absolute -top-1/2 -z-10 tablet:hidden"
         />
       </section>

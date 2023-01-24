@@ -93,7 +93,8 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/debora-migliani/"
           className="font-roboto text-base font-normal leading-[19px] text-color_default"
-          target={"_blank"}
+          target="_blank"
+          rel="noreferrer"
         >
           Debora Migliani Diseñadora UX/UI
         </a>
